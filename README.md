@@ -78,6 +78,16 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
   </table>
 </div>
 
+## 🚀 Installation
+
+```bash
+yarn install
+```
+```bash
+yarn start
+```
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
