@@ -48,19 +48,20 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
       <td>
         <img
           src="./screenshots/ss4.PNG"
-          alt="Home Screen"
+          alt="Products Screen"
           width="200"
           height="auto"
         />
-        <text style="font-size: 13px;" >User's Screen</text>
+        <text style="font-size: 13px;" >Products Screen</text>
       </td>
       <td>
         <img 
-          src="./images/ios-ss6.png"
+          src="./screenshots/ss5.PNG"
           alt="Messages Screen"
           width="100"
           height="auto"
         />
+        <text style="font-size: 13px;" >Reports Screen</text>
       </td>
       <td>
         <img 
