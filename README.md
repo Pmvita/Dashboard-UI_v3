@@ -47,11 +47,12 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
     <tr>
       <td>
         <img
-          src="./images/ios-ss5.png"
+          src="./screenshots/ss4.PNG"
           alt="Home Screen"
-          width="100"
+          width="200"
           height="auto"
         />
+        <text style="font-size: 13px;" >User's Screen</text>
       </td>
       <td>
         <img 
