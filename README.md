@@ -23,54 +23,31 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
           width="200"
           height="auto"
         />
-        <text>Dashboard Screen</text>
+        <text style="font-size: 13px;" >Dashboard Screen</text>
       </td>
       <td>
         <img
-          src="./screenshots/ss2.PNG" 
+          src="./screenshots/ss2.PNG"
           alt="Admin Panel"
-          width="260"
+          width="200"
           height="auto"
         />
-        <text>Admin Panel</text>
+        <text style="font-size: 13px;" >Admin Panel</text>
       </td>
       <td>
         <img
-          src="./images/ios-ss3.png"
-          alt="iOS Sign-Up Screen"
-          width="100"
+          src="./screenshots/ss3.PNG"
+          alt="User's Screen"
+          width="200"
           height="auto"
         />
-        <img
-          src="./images/and-ss3.png"
-          alt="Android Sign-Up Screen"
-          width="100"
-          height="auto"
-        />
-      </td>
-      <td>
-        <img src="./images/ios-ss4.png" 
-          alt="iOS Forgot Password Screen"
-          width="100"
-          height="auto"
-        />
-        <img src="./images/and-ss4.png" 
-          alt="Android Forgot Password Screen"
-          width="100"
-          height="auto"
-        />
+        <text style="font-size: 13px;" >User's Screen</text>
       </td>
     </tr>
     <tr>
       <td>
         <img
           src="./images/ios-ss5.png"
-          alt="Home Screen"
-          width="100"
-          height="auto"
-        />
-        <img
-          src="./images/and-ss5.png"
           alt="Home Screen"
           width="100"
           height="auto"
@@ -83,37 +60,11 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
           width="100"
           height="auto"
         />
-        <img 
-          src="./images/and-ss6.png"
-          alt="Messages Screen"
-          width="100"
-          height="auto"
-        />
       </td>
       <td>
         <img 
           src="./images/ios-ss7.png"
           alt="Wallet Screen"
-          width="100"
-          height="auto"
-        />
-        <img 
-          src="./images/and-ss7.png"
-          alt="Wallet Screen"
-          width="100"
-          height="auto"
-        />
-      </td>
-      <td>
-        <img
-          src="./images/ios-ss8.png"
-          alt="Settings Screen"
-          width="100"
-          height="auto"
-        />
-        <img
-          src="./images/and-ss8.png"
-          alt="Settings Screen"
           width="100"
           height="auto"
         />
