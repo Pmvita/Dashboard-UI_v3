@@ -29,7 +29,7 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
         <img
           src="./screenshots/ss2.PNG"
           alt="Admin Panel"
-          width="200"
+          width="260"
           height="auto"
         />
         <text style="font-size: 13px;" >Admin Panel</text>
@@ -38,7 +38,7 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
         <img
           src="./screenshots/ss3.PNG"
           alt="User's Screen"
-          width="200"
+          width="250"
           height="auto"
         />
         <text style="font-size: 13px;" >User's Screen</text>
@@ -57,19 +57,20 @@ This is a dashboard for an admin panel, built with React Native and Expo. It inc
       <td>
         <img 
           src="./screenshots/ss5.PNG"
-          alt="Messages Screen"
-          width="100"
+          alt="Reports Screen"
+          width="200"
           height="auto"
         />
         <text style="font-size: 13px;" >Reports Screen</text>
       </td>
       <td>
         <img 
-          src="./images/ios-ss7.png"
-          alt="Wallet Screen"
-          width="100"
+          src="./screenshots/ss6.PNG"
+          alt="Settings Screen"
+          width="200"
           height="auto"
         />
+        <text style="font-size: 13px;" >Settings Screen</text>
       </td>
     </tr>
   </table>
