@@ -15,15 +15,17 @@ import {
   Assessment as ReportsIcon,
   Settings as SettingsIcon,
 } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
+import { useNavigation } from '@react-navigation/native';
 
 const Sidebar = () => {
+  const navigation = useNavigation();
+
   const menuItems = [
-    { text: 'Dashboard', icon: <DashboardIcon />, path: '/dashboard' },
-    { text: 'Users', icon: <UsersIcon />, path: '/dashboard/users' },
-    { text: 'Products', icon: <ProductsIcon />, path: '/dashboard/products' },
-    { text: 'Reports', icon: <ReportsIcon />, path: '/dashboard/reports' },
-    { text: 'Settings', icon: <SettingsIcon />, path: '/dashboard/settings' },
+    { text: 'Dashboard', icon: <DashboardIcon />, screen: 'Dashboard' },
+    { text: 'Users', icon: <UsersIcon />, screen: 'Users' },
+    { text: 'Products', icon: <ProductsIcon />, screen: 'Products' },
+    { text: 'Reports', icon: <ReportsIcon />, screen: 'Reports' },
+    { text: 'Settings', icon: <SettingsIcon />, screen: 'Settings' },
   ];
 
   return (
@@ -50,8 +52,7 @@ const Sidebar = () => {
           <ListItem
             button
             key={item.text}
-            component={Link}
-            to={item.path}
+            onPress={() => navigation.navigate(item.screen)}
             sx={{
               '&:hover': {
                 backgroundColor: 'rgba(255, 255, 255, 0.1)',

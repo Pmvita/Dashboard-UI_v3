@@ -5,6 +5,12 @@ import DashboardHome from './pages/Dashboard/DashboardHome';
 import CustomDrawerContent from './components/Dashboard/CustomDrawerContent';
 import { enableScreens } from 'react-native-screens';
 
+// Import other screens
+import Users from './pages/Dashboard/Users';
+import Products from './pages/Dashboard/Products';
+import Reports from './pages/Dashboard/Reports';
+import Settings from './pages/Dashboard/Settings';
+
 enableScreens();
 const Drawer = createDrawerNavigator();
 
@@ -21,7 +27,10 @@ const App = () => {
         }}
       >
         <Drawer.Screen name="Dashboard" component={DashboardHome} />
-        {/* Add more screens here */}
+        <Drawer.Screen name="Users" component={Users} />
+        <Drawer.Screen name="Products" component={Products} />
+        <Drawer.Screen name="Reports" component={Reports} />
+        <Drawer.Screen name="Settings" component={Settings} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
