@@ -1,8 +1,10 @@
 # Admin Dashboard
-
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pmvita/admin-dashoard_v3)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![React Native](https://img.shields.io/badge/React%20Native-000000?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-1C1E94?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/@pmvita/admin-dashoard_v3)
 [![npm](https://img.shields.io/badge/npm-%23003A2C.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/admin-dashoard_v3)
+[![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)](https://yarnpkg.com/)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=com.admin.dashoard_v3)
 [![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/admin-dashoard_v3/id1636008002)
 
